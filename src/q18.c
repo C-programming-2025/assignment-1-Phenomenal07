@@ -1,10 +1,9 @@
-#include <stdio.h>
-int main() {
-    int a, b, c;
-    int sum;
-    printf("enter three different numbers:");
-    scanf("%d %d %d", &a, &b, &c); 
-    sum = (a * a) + (b * b) + (c * c);
-    printf("sum of squares=%d", sum);
-    return 0;
+#include<stdio.h>
+int main(){
+    int num1,num2,num3;
+    int sq_sum;
+    printf("enter any 3 integers:");
+    scanf("%d %d %d", &num1,&num2,&num3);
+    sq_sum= (num1*num1)+(num2*num2)+(num3*num3);
+    printf("sum of squares =%d",sq_sum);
 }
